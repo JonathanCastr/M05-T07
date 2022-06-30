@@ -1,0 +1,70 @@
+<!--OK 1.- Implementa sobre el proyecto el framework Bootstrap. Usa un CDN para obtener los archivos necesarios. -->
+<!--2.- En la sección del formulario de contacto, aplica los conceptos asociados a esta herramienta a fin de cambiar el estilo de este tipo de campos. -->
+
+<!DOCTYPE html></doctype>
+
+<html>
+    <head>
+
+        <title> Te Lo Vendo </title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="assets/js/funciones.js"></script>
+        <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    </head>
+    
+    <body>
+        <!--
+        <section class="col-12 col-s-12">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="correo">Correo</label>
+            <input type="text" id="correo" name="correo">
+            <br>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
+            <button type="button" onclick="alert('Enviado!')">Enviar</button>
+        </section>    -->
+
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+
+            </div>
+            <form action="login.php" class="col-md-6 col-sm-12" id="formulario">
+                <div class="form-group">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control" id="Nombre" aria-describedby="NombreHelp">
+                    <small id="NombreHelp" class="form-text text-muted">Anote su nombre</small>
+                </div>
+                <div class="form-group">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" class="form-control" id="Apellido" aria-describedby="ApellidoHelp">
+                    <small id="ApellidoHelp" class="form-text text-muted">Anote su Apellido</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su email con otros.</small>
+                </div>
+                <div class="form-group">
+                    <label for="Mensaje">Mensaje</label>
+                    <br>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="10"></textarea>                    
+                    <small id="MensajeHelp" class="form-text text-muted">Anote su comentario</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+
+
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+
+      
+
+</html>
